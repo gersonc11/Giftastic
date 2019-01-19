@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* added left margin to buttons creeated by jquery */
+.btn {
+    margin-left: 10px!important;
+}
+.returnedGifs {
+    float: left;
+}
+
+.gifImage {
+    float: left;
+    margin-left: 20px;  
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+    .heading{
+        width: 100%;
+    }
+    .gifImage {
+        width: 100%;
+    }
+}
