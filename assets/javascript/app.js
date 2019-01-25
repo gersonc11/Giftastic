@@ -11,7 +11,7 @@ $('document').ready(function () {
         // setting variables for search term and the API key
         var query = $(this).attr("data-name")
         var APIKey = 'FWlYHZs18PZwmTAZm6vK0M658KuIJcnf';
-        var url = "http://api.giphy.com/v1/gifs/search?q=" + query + '&api_key=' + APIKey + "&limit=10";
+        var url = "https://api.giphy.com/v1/gifs/search?q=" + query + '&api_key=' + APIKey + "&limit=10";
 
         // Creates AJAX call for gifs being called
         $.ajax({
